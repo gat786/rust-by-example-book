@@ -1,3 +1,5 @@
+mod nth_fibo;
+mod fahrenheit_celcius;
 
 fn main() {
     // variables are immutable by default,
@@ -20,13 +22,21 @@ fn main() {
 
     if_examples(12);
 
-    looping_around();
+    // looping_around();
 
-    loop_with_labels();
+    // loop_with_labels();
 
-    loop_with_conditions();
-    
-    looping_through_items();
+    // loop_with_conditions();
+
+    // looping_through_items();
+
+    let n = 3;
+    let result = nth_fibo::nth_fibo(n);
+    println!("fibonacci number of {n} is {result}");
+
+    let f_temp = 104;
+    let c_temp = fahrenheit_celcius::to_celsius(f_temp);
+    println!("{f_temp}f in celsius is {c_temp}c")
 }
 
 fn another_function(x: i32){
