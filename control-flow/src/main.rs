@@ -1,5 +1,6 @@
 mod nth_fibo;
 mod fahrenheit_celcius;
+mod christmas_carol;
 
 fn main() {
     // variables are immutable by default,
@@ -36,7 +37,9 @@ fn main() {
 
     let f_temp = 104;
     let c_temp = fahrenheit_celcius::to_celsius(f_temp);
-    println!("{f_temp}f in celsius is {c_temp}c")
+    println!("{f_temp}f in celsius is {c_temp}c");
+
+    christmas_carol::print_carol();
 }
 
 fn another_function(x: i32){
