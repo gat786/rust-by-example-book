@@ -10,3 +10,4 @@ official websites and tries to complete each exercise with all the readings.
 5. [References and Borrowing](./ref-and-borrow/)
 6. [Slice Types](./slice-type/)
 7. [Structs](./structs/)
+8. [Methods](./methods/)
