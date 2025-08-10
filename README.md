@@ -4,6 +4,7 @@ This repository follows [Rust book](https://doc.rust-lang.org/stable/book/index.
 official websites and tries to complete each exercise with all the readings.
 
 ## 1. Getting Started
+* [Hello Rust](./lessons/1/hello-rust/)
 * [Hello Cargo](./lessons/1/hello-cargo/)
 
 ## 2. Guessing Game
